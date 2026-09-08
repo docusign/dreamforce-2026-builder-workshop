@@ -1,0 +1,17 @@
+{
+  "name": "docusign-builder-lab",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@docusign/iam-sdk": "^1.0.0-beta.3",
+    "zod": "3.25.17"
+  }
+}

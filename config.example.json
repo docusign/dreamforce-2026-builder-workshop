@@ -1,0 +1,9 @@
+{
+  "docusign": {
+    "integrationKey": "{INTEGRATION_KEY}",
+    "secretKey": "{SECRET_KEY}",
+    "redirectUri": "http://localhost:5000/api/auth/callback",
+    "environment": "demo",
+    "targetAccountId": "{TARGET_ACCOUNT_ID}"
+  }
+}
