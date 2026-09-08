@@ -126,7 +126,7 @@ Files used in this session:
 4. Select the Workflows Collection folder and go to the **Authorization** tab. Ensure that all of the environment variables are accurate and select **Get new access token**. Sign in with your Docusign developer account and click to consent to the scopes presented. </br><img src="images/CCA-img3.0.6.png" width="700"/></br>
 5. Run the **Get workflows list** endpoint to obtain the workflow ID. </br><img src="images/CCA-img3.0.2.png" width="600"/></br>
 6. Run the **Get workflow trigger requirements** endpoint with the workflow ID obtained in the previous step to get a list of trigger inputs. </br><img src="images/CCA-img3.0.3.png" width="900"/></br>
-7. Run the **Trigger workflow** endpoint with a request body that includes values for the trigger input fields obtained in the previous step. </br><img src="images/CCA-img3.0.4.png" width="900"/></br>. The response body includes the url for the workflow instance that you can open to complete the workflow or embed within an iframe in an application.
+7. Run the **Trigger workflow** endpoint with a request body that includes values for the trigger input fields obtained in the previous step. </br><img src="images/CCA-img3.0.4.png" width="900"/></br>The response body includes the url for the workflow instance that you can open to complete the workflow or embed within an iframe in an application.
 
 #### Docusign API reference
 1. Open the [Workflow Builder API reference](https://developers.docusign.com/docs/workflow-builder-api/reference/) in the Docusign developer center.
