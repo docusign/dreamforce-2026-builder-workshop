@@ -63,7 +63,7 @@ Prerequisite: Install Tools
 
 1. Fork, clone, or download a zip of the GitHub repo. To clone:
     ```
-    git clone https://github.com/docusign/community-code-along.git
+    git clone https://github.com/docusign/dreamforce-2026-builder-workshop
     ```
 2. Follow the instructions in the project's [README](../README.md) to create and configure an IK in your Developer account and install dependencies.
 
