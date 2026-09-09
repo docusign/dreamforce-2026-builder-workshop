@@ -107,8 +107,6 @@ Prerequisite: Install Tools
 
 ## Part 5: Embed the workflow in a front-end app
 
-This workshop uses TODO markers in code so participants can implement each Docusign SDK call step-by-step.
-
 Files used in this session:
 - [server/services/workflowService.js](server/services/workflowService.js)
 
@@ -149,72 +147,7 @@ Files used in this session:
 
 3. Open http://localhost:5173.
 
-### Step 3. Complete Workflow SDK TODOs
-
-Open [server/services/workflowService.js](server/services/workflowService.js).
-OAuth is already implemented for this workshop branch.
-
-#### 3.1 Implement `getWorkflowDefinitions`
-1. Create an IAM client using `args.accessToken`.
-2. Return workflow definitions via:
-
-   ```js
-   client.maestro.workflows.getWorkflowsList({ accountId: args.accountId })
-   ```
-
-3. Refresh the app and verify workflows are listed.
-
-#### 3.2 Implement `getWorkflowTriggerRequirements`
-1. Create an IAM client using `args.accessToken`.
-2. Return trigger requirements via:
-
-   ```js
-   client.maestro.workflows.getWorkflowTriggerRequirements({
-     accountId: args.accountId,
-     workflowId: args.workflowId,
-   })
-   ```
-
-3. Open any workflow and verify required trigger fields load.
-
-#### 3.3 Implement `triggerWorkflowInstance`
-1. Open `triggerWorkflowInstance` in [server/services/workflowService.js](server/services/workflowService.js).
-2. Use the method signature `(args, payload)`.
-3. Create an IAM client using `args.accessToken`.
-4. Build the request body object sent to the SDK as `triggerWorkflow`:
-
-   ```js
-   const triggerPayload = {
-     instanceName: 'test',
-     triggerInputs: payload.triggerInputs || {},
-   }
-   ```
-
-5. Trigger the workflow with the IAM SDK endpoint:
-
-   ```js
-   const triggerResponse = await client.maestro.workflows.triggerWorkflow({
-     accountId: args.accountId,
-     workflowId: args.workflowId,
-     triggerWorkflow: triggerPayload,
-   })
-   ```
-
-6. Return the raw SDK response:
-
-   ```js
-   return triggerResponse
-   ```
-
-7. Save and restart the server if needed.
-
-### Step 4. Trigger and Embed Verification
-
-After implementing TODOs, `triggerWorkflowInstance` should:
-- call `client.maestro.workflows.triggerWorkflow(...)`
-- return the SDK response object (including `instanceUrl`)
-
-Verify end-to-end behavior:
+### Step 3. Verify end-to-end behavior
 1. Open a workflow.
 2. Fill required trigger fields.
 3. Click **Run Workflow**.
@@ -223,9 +156,9 @@ Verify end-to-end behavior:
 ### Troubleshooting
 1. `403` from Workflow Builder endpoints: verify your developer account has Workflow Builder enabled.
 2. No workflows returned: ensure your workflow is published and active.
-3. WORKSHOP TODO message: complete the matching TODO in workflow service.
+3. WORKSHOP TODO message: complete the matching TODO in workflow service. 
 
-### Step 5. Download an audit trail
+### Step 4. Download an audit trail
 
 #### Using the UI
 1. Go to the [Workflows tab]((https://apps-d.docusign.com/send/workflows/)) in your developer account.
