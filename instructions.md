@@ -93,7 +93,7 @@ Prerequisite: Install Tools
 11. Open **Update Mailing Address** and verify Salesforce write-back field mappings for the Contact record. These values should come from the **Consent For Change** step.</br><img src="images/CCA-img2.3.12.png" width="500"/></br>
 12. Select the condition for writeback to the record where the `emailaddress` field of the record matches the `emailAddress` field from the **Consent For Change** step. </br><img src="images/CCA-img2.3.13.png" width="500"/></br>
 13. Finally, open the **Store File in Salesforce** step and select the Record Id for the location. </br><img src="images/CCA-img2.3.14.png" width="500"/></br>
-14. Click **Review & Publish** to publish the completed workflow.
+14. Click **Review & Publish** and follow the steps to publish the completed workflow.
 
 ## Part 4: Test the workflow
 1. In Salesforce, open a seeded contact record with mailing address details.</br><img src="images/CCA-img2.4.1.png" width="900"/></br>
