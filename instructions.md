@@ -1,8 +1,8 @@
 # Builder Lab: Build a Docusign + Salesforce Agreement Workflow
 
 ## Resources
-* [GitHub Link](https://github.com/docusign/dsu-builder-df26)
-* [Docusign Developer Center](developers.docusign.com)
+* [GitHub Link](https://github.com/docusign/dreamforce-2026-builder-workshop)
+* [Docusign Developer Center](https://developers.docusign.com)
 * [Docusign App Center](https://apps-d.docusign.com/app-center/)
 * [Workflow Builder Documentation](https://developers.docusign.com/docs/workflow-builder-api/workflow-builder101/workflows/)
 * [Extension App Documentation](https://developers.docusign.com/extension-apps/)
