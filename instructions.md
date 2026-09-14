@@ -54,19 +54,6 @@ account easier.
 10. Login with your Salesforce developer account and verify your identity. Be sure to use the username that Salesforce created when you signed up, and not your email address. </br><img src="images/CCA-img1.3.09.png" width="500"/></br><img src="images/CCA-img1.3.10.png" width="500"/></br>
 11. Return the the App Center where you should see that you are successfully logged in with the Salesforce extension app.</br><img src="images/CCA-img1.3.11.png" width="500"/></br>
 
-### Step 4. Download and configure the Docusign Builder Lab GitHub project
-Prerequisite: Install Tools
-* [VSCode](https://code.visualstudio.com/docs/setup/setup-overview)
-* [Git](https://git-scm.com/install/)
-* [Node.js](https://nodejs.org/en/download)
-
-
-1. Fork, clone, or download a zip of the GitHub repo. To clone:
-    ```
-    git clone https://github.com/docusign/dreamforce-2026-builder-workshop
-    ```
-2. Follow the instructions in the project's [README](../README.md) to create and configure an IK in your Developer account and install dependencies.
-
 ## Part 3: Build and configure a Docusign workflow
 
 ### Verify contact records in your Salesforce system of record
@@ -133,7 +120,20 @@ Files used in this session:
 3. Sign in with your Docusign developer account.
 4. Open the desired API endpoint and select **try it** to run the workflow with your account details. </br><img src="images/CCA-img3.0.5.png" width="900"/></br>
 
-### Step 2. Start the project locally
+### Step 2. Download and configure the Docusign Builder Lab GitHub project
+Prerequisite: Install Tools
+* [VSCode](https://code.visualstudio.com/docs/setup/setup-overview)
+* [Git](https://git-scm.com/install/)
+* [Node.js](https://nodejs.org/en/download)
+
+
+1. Fork, clone, or download a zip of the GitHub repo. To clone:
+    ```
+    git clone https://github.com/docusign/dreamforce-2026-builder-workshop
+    ```
+2. Follow the instructions in the project's [README](../README.md) to create and configure an IK in your Developer account and install dependencies.
+
+### Step 3. Start the project locally
 1. From the project root, install dependencies if needed:
 
    ```bash
@@ -148,7 +148,7 @@ Files used in this session:
 
 3. Open http://localhost:5173.
 
-### Step 3. Verify end-to-end behavior
+### Step 4. Verify end-to-end behavior
 1. Open a workflow.
 2. Fill required trigger fields.
 3. Click **Run Workflow**.
@@ -159,7 +159,7 @@ Files used in this session:
 2. No workflows returned: ensure your workflow is published and active.
 3. WORKSHOP TODO message: complete the matching TODO in workflow service. 
 
-### Step 4. Download an audit trail
+### Step 5. Download an audit trail
 
 #### Using the UI
 1. Go to the [Workflows tab]((https://apps-d.docusign.com/send/workflows/)) in your developer account.
