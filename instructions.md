@@ -33,7 +33,7 @@ opens. </br><img src="images/CCA-img1.1.6.png" width="500"/></br>
 
 ### Step 2. Sign up for a free Salesforce Developer Account
 1. Go to the Salesforce Developer Center to sign up for a Salesforce developer account:
-https://developer.salesforce.com/developer-legacy/signup
+https://www.salesforce.com/products/free-trial/developer/
 2. Fill in the required fields. Use the same email address tied to the Docusign developer
 account you just created. Click **Sign me up**. ![]()</br><img src="images/CCA-img1.2.1.png" width="900"/></br>
 3. Locate and open the Salesforce email notification sent to the email address you have
