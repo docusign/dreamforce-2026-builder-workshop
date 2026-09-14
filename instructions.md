@@ -43,7 +43,7 @@ Account**, enter a password and security question, and select **Change Password*
 account easier.
 
 ## Part 2. Install and connect the Salesforce extension app
-1. Go to the Docusign developer App Center: https://apps-d.docusign.com/app-center and log in your Docusign developer account. </br><img src="images/CCA-img1.3.1.png" width="800"/></br>
+1. Go to the Docusign developer App Center: https://apps-d.docusign.com/app-center and log into your Docusign developer account. </br><img src="images/CCA-img1.3.1.png" width="800"/></br>
 3. Select the Salesforce extension app tile from the home screen, or search for term "Salesforce" and select the first result. </br><img src="images/CCA-img1.3.2.png" width="800"/></br>
 4. Click **Install App**. </br><img src="images/CCA-img1.3.3.png" width="800"/></br>
 5. Click **Install and Authorize**. </br><img src="images/CCA-img1.3.4.png" width="500"/></br>
