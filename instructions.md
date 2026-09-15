@@ -95,9 +95,6 @@ account easier.
 
 ## Part 5: Embed the workflow in a front-end app
 
-Files used in this session:
-- [server/services/workflowService.js](server/services/workflowService.js)
-
 ### Step 1. Prepare your workflow in Docusign
 1. Open the [Workflow Designer](https://apps-d.docusign.com/send/workflows/) and edit the workflow you created in Part 3. </br><img src="images/CCA-img3.1.1.png" width="900"/></br>
 2. Set the trigger method to **From an API Call**. </br><img src="images/CCA-img3.1.2.png" width="900"/></br></br><img src="images/CCA-img3.1.3.png" width="900"/></br>
