@@ -1,4 +1,4 @@
-# Docusign Builder Lab
+# Docusign Builder Lab: Build a Docusign + Salesforce Agreement Workflow
 
 Starter code for an example client app that embeds a Docusign workflow.
 
